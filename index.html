@@ -159,7 +159,30 @@
       main { padding: 40px 20px 60px; }
       .tile { width: 30px; height: 30px; font-size: 13px; }
     }
-  </style>
+    nav {
+      background: var(--off-white);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 0 24px;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 14px 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--slate);
+      text-decoration: none;
+      border-bottom: 3px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    nav a:hover { color: var(--near-black); }
+    nav a.active { color: var(--green-dark); border-bottom-color: var(--green); }
+
+      </style>
 </head>
 <body>
 
@@ -172,6 +195,11 @@
       App Store
     </a>
   </header>
+  <nav>
+    <a href="index.html" class="active">Privacy Policy</a>
+    <a href="support.html">Support</a>
+  </nav>
+
 
   <main>
     <div class="policy-header">
