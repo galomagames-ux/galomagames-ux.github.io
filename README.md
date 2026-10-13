@@ -1,1 +1,1 @@
-# galomagames-ux.github.io
+# galomagames-ux.github.io/support
