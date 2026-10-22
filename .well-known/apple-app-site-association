@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["D9S5X8A964.com.galoma.wordsmithy"],
+        "components": [
+          { "/": "/wordsmithy/daily/*" },
+          { "/": "/wordsmithy/rematch/*" },
+          { "/": "/wordsmithy/bracket/*" }
+        ]
+      }
+    ]
+  }
+}
