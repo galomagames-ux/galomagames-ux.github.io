@@ -16,7 +16,7 @@ h2{font-size:1.8rem;margin:2px 0 6px}
 .lead{color:#555a6e;margin-bottom:8px}
 section{margin-top:30px}
 h3{font-size:1.1rem;margin-bottom:8px;color:var(--ink)}
-ul{padding-left:22px;margin-top:8px}li{margin-top:4px}
+ul,ol{padding-left:22px;margin-top:8px}li{margin-top:4px}
 a{color:#2447D8}
 .card{border:1px solid var(--border);border-radius:16px;padding:18px 20px;margin-top:12px;background:#F6F8FF}
 footer{border-top:1px solid var(--border);text-align:center;padding:24px;color:#6b7090;font-size:.9rem}
